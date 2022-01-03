@@ -48,75 +48,62 @@
     .header-wrap {
         display: flex;
         justify-content: space-between;
+        overflow-x: hidden;
     }
+
     .menu {
+        display: none;
         width: 768px;
         text-align: center;
-        opacity: 0;
+        opacity: 1;
+        height: 100vh;
         flex-direction: column;
         justify-content: center;
         position: absolute;
         z-index: 10;
         top: -16px;
-        right: 0;
+        right: 0px;
         background-color: rgb(30, 50, 30, 0.8);
         transition: 0.5s;
+        transform: translateX(100%);
     }
     .animation {
-        opacity: 1;
+        display: block;
     }
-
+    .transform {
+        transform: none;
+        transition: 0.5s;
+    }
     .header__menu-wrap {
-        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
         cursor: pointer;
-        padding: 10px 5px;
-        position: relative;
+        margin: 0 20px;
         z-index: 11;
     }
-    .header__menu {
-        display: block;
+    .line {
         width: 32px;
         height: 2px;
         background-color: #fff;
-        position: relative;
+        margin: 3px 0;
+        transition: 0.4s;
     }
-    .header__menu::after {
-        content: " ";
-        display: block;
-        width: 32px;
-        height: 2px;
-        background-color: #fff;
-        position: absolute;
-        top: 7px;
-    }
-    .header__menu::before {
-        content: " ";
-        display: block;
-        width: 32px;
-        height: 2px;
-        background-color: #fff;
-        position: absolute;
-        top: -8px;
+    .open {
+        .line2 {
+            opacity: 0;
+        }
+        .line3 {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+        .line1 {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
     }
 
-    .header__close {
-        display: none;
-        width: 16px;
-        height: 1.5px;
-        background-color: #fff;
-        position: relative;
-        transform: rotate(225deg);
-    }
-    .header__close:after {
-        content: " ";
-        display: block;
-        width: 16px;
-        height: 1.5px;
-        background-color: #fff;
-        position: absolute;
-        top: 0px;
-        transform: rotate(270deg);
-    }
     .lng {
         margin-left: 50%;
     }
@@ -125,6 +112,12 @@
     }
     .none {
         display: none;
+    }
+    .opacity0 {
+        opacity: 0;
+    }
+    .opacity {
+        opacity: 1;
     }
     //!Main
     .buttons-block {
