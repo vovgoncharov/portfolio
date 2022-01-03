@@ -25,16 +25,5 @@ link.forEach((el) => {
         }, 0.5);
     });
 });
-const closeMenu = () => {
-    main.addEventListener("click", function () {
-        menuOpen.classList.toggle("opacity0");
-        menuClose.classList.toggle("opacity");
-        menuClose.classList.toggle("anime");
-        menu.classList.toggle("animation");
-        setTimeout(() => {
-            menu.classList.toggle("transform");
-        }, 0.5);
-    });
-};
-closeMenu();
+
 openMenu();
