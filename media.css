@@ -3,7 +3,6 @@
     max-width: 100%;
     padding: 0;
   }
-
   .nav {
     margin-left: 45%;
   }
@@ -27,16 +26,13 @@
   .nav {
     margin-left: 17%;
   }
-
   .buttons-block {
     flex-wrap: wrap;
   }
-
   .galleries-block {
     flex-direction: column;
     align-items: center;
   }
-
   .price__blocks {
     flex-direction: column;
     align-items: center;
@@ -53,7 +49,6 @@
     justify-content: space-between;
     overflow-x: hidden;
   }
-
   .menu {
     display: none;
     width: 768px;
@@ -70,16 +65,13 @@
     transition: 0.5s;
     transform: translateX(100%);
   }
-
   .animation {
     display: block;
   }
-
   .transform {
     transform: none;
     transition: 0.5s;
   }
-
   .header__menu-wrap {
     display: flex;
     flex-direction: column;
@@ -91,7 +83,6 @@
     margin: 0 20px;
     z-index: 11;
   }
-
   .line {
     width: 32px;
     height: 2px;
@@ -99,7 +90,6 @@
     margin: 3px 0;
     transition: 0.4s;
   }
-
   .open .line2 {
     opacity: 0;
   }
@@ -109,64 +99,51 @@
   .open .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
   }
-
   .lng {
     margin-left: 50%;
   }
-
   .block {
     display: block;
   }
-
   .none {
     display: none;
   }
-
   .opacity0 {
     opacity: 0;
   }
-
   .opacity {
     opacity: 1;
   }
-
   .buttons-block {
     width: 87%;
     margin-left: 6.5%;
   }
-
   .video-player {
     width: 90%;
     margin: 60px auto 0;
     height: 419px;
     background-size: 800px 419px;
   }
-
   .contacts__container {
     display: flex;
     justify-content: center;
   }
-
   .contacts__title {
     text-align: center;
   }
-
   .contacts__btn {
     display: flex;
     justify-content: center;
     margin-left: 27%;
   }
-
   .footer {
     padding: 20px 0;
   }
-
   .footer__container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
   .footer__menu {
     padding: 0;
   }
@@ -175,48 +152,38 @@
   .menu {
     width: 100%;
   }
-
   .hero__text {
     width: 90%;
   }
-
   .title {
     width: 50%;
   }
-
   .skills-items {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .skill-item {
     width: 100%;
     margin-top: 15px;
   }
-
   .skill-text {
     width: 100%;
   }
-
   .portfolio__gallery {
     width: 90%;
   }
-
   .portfolio__title {
     width: 70%;
   }
-
   .price__block {
     width: 70%;
   }
-
   #textarea,
 .email,
 .tel {
     width: 90%;
   }
-
   .contacts__btn {
     margin-left: 14%;
   }
@@ -225,15 +192,12 @@
   .nav {
     margin-left: 5%;
   }
-
   .svg {
     width: 65%;
   }
-
   .title {
     font-size: 35px;
   }
-
   .portfolio__title {
     width: 80%;
   }
@@ -248,19 +212,15 @@
     display: flex;
     justify-content: center;
   }
-
   .hero__title {
     font-size: 40px;
   }
-
   .lng {
     margin-left: 40%;
   }
-
   .button {
     width: 70%;
   }
-
   .portfolio__title {
     width: 75%;
   }
@@ -269,48 +229,38 @@
   .lng {
     margin-left: 30%;
   }
-
   .hero-block {
     text-align: center;
     padding-left: 0;
   }
-
   .hero__text {
     margin: 0 auto;
   }
-
   .title {
     font-size: 30px;
     width: 60%;
   }
-
   .price__title {
     line-height: 0;
   }
-
   .price__text {
     line-height: 20px;
   }
-
   .price__button {
     margin: 17px auto;
   }
-
   .video-player {
     background-position: -150px;
   }
-
   .svg {
     width: 45%;
   }
-
   #textarea,
 .email,
 .tel {
     width: 70%;
     margin: 20px auto;
   }
-
   .portfolio__title {
     width: 75%;
   }
@@ -319,7 +269,6 @@
   .lng {
     margin-left: 25%;
   }
-
   .portfolio__title {
     width: 79%;
   }
